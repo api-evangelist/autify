@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/autify/main/json-schema/autify-post-api-workspaces-workspaceid-testplans-testplanid-run-response-schema.json",
+  "title": "PostApiWorkspacesWorkspaceidTestplansTestplanidRunResponse",
+  "x-generated": "2026-09-26",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/autify-openapi-generated.yml#/components/schemas/PostApiWorkspacesWorkspaceidTestplansTestplanidRunResponse",
+  "type": "object",
+  "properties": {
+    "resultId": {
+      "type": "string"
+    }
+  }
+}

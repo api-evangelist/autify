@@ -1,0 +1,36 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.autify.com/docs/autify-command-line-interface.md
+sources:
+- https://help.autify.com/docs/autify-command-line-interface.md
+- https://help.autify.com/docs/incompatible-javascript-libraries.md
+- https://help.autify.com/mobile/docs/autify-command-line-interface-cli.md
+- https://help.autify.com/mobile/docs/how-to-update-the-autify-cli.md
+install:
+- method: Homebrew
+  command: brew install autifyhq/tap/autify-cli
+- method: Homebrew
+  command: 'brew tap autifyhq/tap
+
+    brew install autify-cli'
+- method: Shell installer
+  command: curl https://autify-cli-assets.s3.amazonaws.com/autify-cli/channels/stable/install-standalone.sh | sh
+- method: Tarball (Linux Intel 64bit, tar.gz)
+  command: 'curl -O https://autify-cli-assets.s3.us-west-2.amazonaws.com/autify-cli/channels/stable/autify-linux-x64.tar.gz
+
+    tar -xzf ./autify-linux-x64.tar.gz
+
+    ./autify/bin/autify --version'
+commands:
+- group: web auth
+  commands:
+  - autify web auth login
+- group: mobile auth
+  commands:
+  - autify mobile auth login
+- group: update
+  commands:
+  - autify update
+binary: autify
+docs: https://help.autify.com/docs/autify-command-line-interface.md
