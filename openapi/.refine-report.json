@@ -1,0 +1,30 @@
+{
+  "provider": "autify",
+  "sources": [
+    "_ae-authored/autify-openapi-generated.yml"
+  ],
+  "outputs": [
+    "autify-autify-cli-api-openapi.yml",
+    "autify-payload-api-openapi.yml",
+    "autify-projects-api-openapi.yml",
+    "autify-workspaces-api-openapi.yml",
+    "autify-default-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "autify-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "autify-openapi-generated.yml: tagged paths GET /api/v1/projects/{projectId}/results -> Projects",
+    "autify-openapi-generated.yml: tagged paths GET /api/v1/projects/{projectid} -> Projects",
+    "autify-openapi-generated.yml: tagged paths GET /api/workspaces -> Workspaces",
+    "autify-openapi-generated.yml: tagged paths POST /api/workspaces/{workspaceid}/testPlans/{testplanid}/run -> Workspaces",
+    "autify-openapi-generated.yml: tagged paths GET /api/workspaces/{workspaceid}/{id} -> Workspaces",
+    "autify-openapi-generated.yml: tagged paths GET /api/~ -> ~",
+    "autify-openapi-generated.yml: declared missing tag: Workspaces",
+    "autify-openapi-generated.yml: declared missing tag: ~",
+    "apis.yml register: written (+5 apis, 5 total)"
+  ],
+  "skipped": []
+}
