@@ -125,19 +125,6 @@ paths:
         collapsed_from: 2 example path(s) differing only at id
 components:
   schemas:
-    PostApiWorkspacesWorkspaceidTestplansTestplanidRunResponse:
-      type: object
-      properties:
-        resultId:
-          type: string
-    PostApiWorkspacesWorkspaceidTestplansTestplanidRunRequest:
-      type: object
-      properties:
-        urlReplacements:
-          type: array
-        variableOverrides:
-          type: array
-          description: Values to use for this run only. They layer over the test plan's saved overrides per variable and never change the plan itself. An override for a variable that none of the plan's scenarios use is accepted but has no effect on the run.
     GetApiWorkspacesWorkspaceidIdResponse:
       type: object
       properties:
@@ -154,6 +141,19 @@ components:
         '200':
           type: string
           description: Ok
+    PostApiWorkspacesWorkspaceidTestplansTestplanidRunResponse:
+      type: object
+      properties:
+        resultId:
+          type: string
+    PostApiWorkspacesWorkspaceidTestplansTestplanidRunRequest:
+      type: object
+      properties:
+        urlReplacements:
+          type: array
+        variableOverrides:
+          type: array
+          description: Values to use for this run only. They layer over the test plan's saved overrides per variable and never change the plan itself. An override for a variable that none of the plan's scenarios use is accepted but has no effect on the run.
   securitySchemes:
     bearer:
       type: http
