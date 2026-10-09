@@ -68,3 +68,47 @@ plans:
   - Custom Concurrency
   - 'Hosted: On-Prem or Dedicated Infra'
 docs: https://autify.com/pricing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free Tier
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Core Starter
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Core Starter
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Team Growing Teams
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Team Growing Teams
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
