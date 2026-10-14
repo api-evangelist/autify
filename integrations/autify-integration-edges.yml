@@ -1,0 +1,29 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- https://github.com/marketplace?type=actions
+marketplace_apps: []
+edges:
+- partner_name: GitHub Marketplace (actions)
+  partner: github-actions
+  partner_match: aggregator
+  type: marketplace
+  marketplace: github-actions
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://github.com/marketplace/actions/run-test-on-autify-for-web
+  listing_count: 6
+  apps:
+  - Run test on Autify for Web
+  - Autify for Mobile Run Test Plan
+  - Setup Autify Command Line Interface (CLI)
+  - Run test on Autify for Mobile
+  - Upload build to Autify for Mobile
+  publisher_name: Autify
+  badges:
+  - Verified creator
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+source:
+- https://github.com/marketplace?type=actions
