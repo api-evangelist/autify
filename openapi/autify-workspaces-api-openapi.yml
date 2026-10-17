@@ -125,6 +125,17 @@ paths:
         collapsed_from: 2 example path(s) differing only at id
 components:
   schemas:
+    PostApiWorkspacesWorkspaceidTestplansTestplanidRunResponse:
+      type: object
+      properties:
+        resultId:
+          type: string
+    GetApiWorkspacesResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+          description: Ok
     GetApiWorkspacesWorkspaceidIdResponse:
       type: object
       properties:
@@ -135,17 +146,6 @@ components:
           type: integer
         totalPages:
           type: integer
-    GetApiWorkspacesResponse:
-      type: object
-      properties:
-        '200':
-          type: string
-          description: Ok
-    PostApiWorkspacesWorkspaceidTestplansTestplanidRunResponse:
-      type: object
-      properties:
-        resultId:
-          type: string
     PostApiWorkspacesWorkspaceidTestplansTestplanidRunRequest:
       type: object
       properties:
